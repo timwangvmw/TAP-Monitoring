@@ -148,12 +148,6 @@ calculate_time_difference() {
     echo "($difference Seconds)"
 }
 
-# 测试函数
-time1="2023-07-05T06:50:44Z"
-time2="2023-07-05T06:50:59Z"
-calculate_time_difference "$time1" "$time2"
-
-
 echo '================================================================'
 echo 'SUMMARY'
 echo '================================================================'
