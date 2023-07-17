@@ -1,4 +1,6 @@
-# [TAP]
+# TAP Monitoring by Promethues with kube-stat-metrics
+1. 使用 --custom-resource-state-config https://github.com/kubernetes/kube-state-metrics/blob/main/docs/customresourcestate-metrics.md 抓取 K8S CRD 指標. 
+2. 使用 --metric-labels-allowlist 抓取 kube pod level labels.
 ## 1. Create an overlay
 ```
 kubectl apply -f secret-tap-crd-overlay.yml -n tanzu-packages
